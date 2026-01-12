@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+}
+.growth-section {
+    padding: 80px 10%;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.growth-section h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+/* Slides */
+.slide {
+    min-width: 100%;
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.slide h3 {
+    color: #2ecc71;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .slide {
+        padding: 30px;
+    }
+}
+
+
