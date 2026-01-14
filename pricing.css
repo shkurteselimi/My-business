@@ -31,6 +31,25 @@ header p {
   color: #555;
 }
 
+.dropdown-menu {
+  border-radius: 10px;
+  padding: 10px 0;
+  
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background: #f1f1f1;
+}
+.dropdown-toggle a{
+    color: black;
+
+}
+
+
 /* TOGGLE SWITCH */
 .toggle-container {
   display: flex;
